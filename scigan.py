@@ -5,7 +5,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from tqdm import tqdm
 
-# Assuming these functions are already defined in utils.model_utils
+
 from utils import equivariant_layer, invariant_layer, sample_dosages, sample_X, sample_Z
 
 # Désactiver la détection d'anomalie en production pour la performance
